@@ -17,14 +17,14 @@ export default function CorinthiaPetite() {
   const products = [
     {
       id: 1,
-      name: "Vestido Princesa Aurora",
+      name: "Vestido Abejita Chiquitita",
       description: "Elegante vestido en tul rosa con bordados dorados, perfecto para fiestas especiales.",
       images: ["/placeholder.svg?height=500&width=400", "/placeholder.svg?height=500&width=400"],
       featured: true,
     },
     {
       id: 2,
-      name: "Vestido Jardín Secreto",
+      name: "Vestido Cinnamon Roll",
       description: "Vestido floral con detalles bordados a mano, ideal para eventos al aire libre.",
       images: ["/placeholder.svg?height=500&width=400", "/placeholder.svg?height=500&width=400"],
       featured: true,
