@@ -19,7 +19,7 @@ export default function CorinthiaPetite() {
       id: 1,
       name: "Vestido Abejita Chiquitita",
       description: "Elegante vestido en tul rosa con bordados dorados, perfecto para fiestas especiales.",
-      images: ["/WhatsApp Image 2025-05-30 at 1.56.46 PM.jpeg?height=500&width=400", "/placeholder.svg?height=500&width=400"],
+      images: ["/abejita.HEIC?height=500&width=400", "/placeholder.svg?height=500&width=400"],
       featured: true,
     },
     {
