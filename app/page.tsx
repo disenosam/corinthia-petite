@@ -737,7 +737,7 @@ const openWhatsApp = (message = "") => {
                 <div>
                   <h3 className="font-playfair text-2xl font-bold text-gray-800 mb-4">¿Envían a toda la República?</h3>
                   <div className="text-lg text-gray-700">
-                    <p>¡Sí! Enviamos a todo México.</p>
+                    <p>¡Sí! Enviamos a todo México.</p>    CCAMBIAR ETSO
                     <p>También puedes recoger tu vestido en persona si vives cerca.</p>
                     <p className="mt-2 font-semibold">El costo de envío se calcula según tu ubicación.</p>
                   </div>
@@ -793,7 +793,7 @@ const openWhatsApp = (message = "") => {
                   </div>
                   <div>
                     <h4 className="font-playfair text-2xl font-bold text-gray-800">WhatsApp (Recomendado)</h4>
-                    <p className="text-pink-600 font-semibold text-lg">+52 55 1234 5678</p>
+                    <p className="text-pink-600 font-semibold text-lg">+52 653 538 9027</p>
                   </div>
                 </div>
                 <p className="text-gray-700 mb-6 text-lg">
@@ -820,7 +820,7 @@ const openWhatsApp = (message = "") => {
                     </div>
                     <div>
                       <p className="font-semibold text-lg">Email</p>
-                      <p className="text-gray-600">corinthia@corinthiapetite.com</p>
+                      <p className="text-gray-600">corinthiadesigns2023@gmail.com</p>
                     </div>
                   </div>
 
@@ -840,7 +840,7 @@ const openWhatsApp = (message = "") => {
                     </div>
                     <div>
                       <p className="font-semibold text-lg">Instagram</p>
-                      <p className="text-gray-600">@CorinthiaPetite</p>
+                      <p className="text-gray-600">@Corinthia_Petite</p>
                     </div>
                   </div>
                 </div>
@@ -1043,7 +1043,7 @@ const openWhatsApp = (message = "") => {
             <Button
               variant="ghost"
               size="lg"
-              onClick={() => window.open("https://facebook.com/corinthiapetite", "_blank")}
+              onClick={() => window.open("https://www.facebook.com/profile.php?id=61572425394616", "_blank")}
               className="text-white hover:text-pink-400 rounded-full p-4 hover:bg-pink-500/20 transition-all duration-300"
             >
               <Facebook className="w-6 h-6 mr-2" />
@@ -1052,7 +1052,7 @@ const openWhatsApp = (message = "") => {
             <Button
               variant="ghost"
               size="lg"
-              onClick={() => window.open("https://instagram.com/corinthiapetite", "_blank")}
+              onClick={() => window.open("https://www.instagram.com/corinthia_petite/", "_blank")}
               className="text-white hover:text-pink-400 rounded-full p-4 hover:bg-pink-500/20 transition-all duration-300"
             >
               <Instagram className="w-6 h-6 mr-2" />
@@ -1061,8 +1061,8 @@ const openWhatsApp = (message = "") => {
           </div>
 
           <div className="text-gray-400 space-y-3 text-lg">
-            <p>WhatsApp: +52 55 1234 5678</p>
-            <p>Email: corinthia@corinthiapetite.com</p>
+            <p>WhatsApp: +52 653 538 9027</p>
+            <p>Email: corinthiadesigns2023@gmail.com</p>
             <p className="mt-6">&copy; 2024 Corinthia Petite. Todos los derechos reservados.</p>
             <p className="font-playfair italic">Diseño por Samantha Quintero @samaneli00</p>
           </div>
