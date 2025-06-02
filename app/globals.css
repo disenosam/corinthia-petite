@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 210 40% 96%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 210 40% 96%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+.font-cormorant {
+  font-family: var(--font-cormorant);
+}
+
+.font-playfair {
+  font-family: var(--font-playfair);
+}
+
+.font-inter {
+  font-family: var(--font-inter);
+}
+
+/* Custom gradient backgrounds - Pink themed */
+.gradient-pink {
+  background: linear-gradient(135deg, #fdf2f8 0%, #fce7f3 50%, #f3e8ff 100%);
+}
+
+.gradient-rose {
+  background: linear-gradient(135deg, #fff1f2 0%, #ffe4e6 50%, #fecaca 100%);
+}
+
+.gradient-pale-pink {
+  background: linear-gradient(135deg, #fdf2f8 0%, #fce7f3 100%);
+}
+
+.gradient-dusty-pink {
+  background: linear-gradient(135deg, #fce7f3 0%, #f9a8d4 50%, #f472b6 100%);
+}
+
+.gradient-deep-pink {
+  background: linear-gradient(135deg, #f9a8d4 0%, #ec4899 50%, #be185d 100%);
+}
+
+.gradient-pink-black {
+  background: linear-gradient(135deg, #fce7f3 0%, #f9a8d4 50%, #1f2937 100%);
+}
+
+.gradient-black-pink {
+  background: linear-gradient(135deg, #000000 0%, #1f2937 50%, #be185d 100%);
+}
+
+/* Elegant shadows */
+.shadow-elegant {
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.shadow-soft {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+}
