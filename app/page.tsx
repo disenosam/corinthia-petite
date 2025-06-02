@@ -26,7 +26,7 @@ export default function CorinthiaPetite() {
       id: 2,
       name: "Vestido Cinnamon Roll",
       description: "Vestido floral con detalles bordados a mano, ideal para eventos al aire libre.",
-      images: ["/placeholder.svg?height=500&width=400", "/placeholder.svg?height=500&width=400"],
+      images: ["/public/WhatsApp Image 2025-05-30 at 1.56.46 PM.jpeg?height=500&width=400", "/cory petite.jpeg?height=500&width=400"],
       featured: true,
     },
     {
