@@ -77,12 +77,15 @@ export default function CorinthiaPetite() {
     },
   ]
 
-  const openWhatsApp = (message = "") => {
-    const phone = "5215512345678" // Replace with actual WhatsApp number
-    const defaultMessage = "Hola Corinthia, me interesa conocer más sobre los vestidos para mi niña. ¿Podrías ayudarme?"
-    const encodedMessage = encodeURIComponent(message || defaultMessage)
-    window.open(`https://wa.me/${phone}?text=${encodedMessage}`, "_blank")
-  }
+const openWhatsApp = (message = "") => {
+  const phone = "526535389027"; // Número de WhatsApp en formato internacional (sin signos + ni espacios)
+  const defaultMessage = "Hola Corinthia, me interesa conocer más sobre los vestidos para mi niña. ¿Podrías ayudarme?";
+  const finalMessage = message.trim() !== "" ? message : defaultMessage;
+  const encodedMessage = encodeURIComponent(finalMessage);
+  const url = `https://wa.me/${phone}?text=${encodedMessage}`;
+  window.open(url, "_blank");
+};
+
 
   const nextTestimonial = () => {
     setCurrentTestimonial((prev) => (prev + 1) % testimonials.length)
