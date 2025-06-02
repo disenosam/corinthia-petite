@@ -70,11 +70,11 @@
 }
 
 .gradient-pink-black {
-  background: linear-gradient(135deg, #f4dbd5 0%, #f4dbd5 50%, #1f2937 100%);
+  background: linear-gradient(135deg, #f4dbd5 0%, #f4dbd5 00%, #1f2937 100%);
 }
 
 .gradient-black-pink {
-  background: linear-gradient(135deg, #000000 0%, #1f2937 50%, #f4dbd5 100%);
+  background: linear-gradient(135deg, #000000 0%, #1f2937 100%, #f4dbd5 00%);
 }
 
 /* Elegant shadows */
